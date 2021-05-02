@@ -13,7 +13,7 @@ Linux环境安装配置Clash工具，以实现代理上网效果。包含下载�
 - [https://github.com/Dreamacro/clash/releases](https://github.com/Dreamacro/clash/releases)
 - 下载时需注意服务器位数是64还是32位，本文档中使用的64位
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/01e6b44e-16ec-449d-ba74-d804cf20a7a7/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/01e6b44e-16ec-449d-ba74-d804cf20a7a7/Untitled.png)
+![image](https://user-images.githubusercontent.com/43178911/116800809-ee540700-ab36-11eb-940f-25eed6be8a6c.png)
 
 ### 二、配置并运行clash
 
@@ -78,14 +78,14 @@ INFO[0000] Start initial compatible provider GlobalTV
 
 打开系统设置，点击网络代理右边的 ⚙ 按钮，选择手动，填写 HTTP 和 HTTPS 代理为 127.0.0.1:7890，填写 Socks 主机为 127.0.0.1:7891，即可启用系统代理，如下图所示。
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/91564e14-382b-4a61-b30b-78253d2fcbe2/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/91564e14-382b-4a61-b30b-78253d2fcbe2/Untitled.png)
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fbda20f2-015a-42ff-80df-308ba05f1d3d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fbda20f2-015a-42ff-80df-308ba05f1d3d/Untitled.png)
 
 ### 四、测试验证
 
 - 通过curl命令访问www.google.com，响应正常。
 - 部分（我的TnT）服务器会出现curl可通，ping不通的情况，求大神告知~
+![image](https://user-images.githubusercontent.com/43178911/116800820-0592f480-ab37-11eb-8a46-7e0277164c7d.png)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fbda20f2-015a-42ff-80df-308ba05f1d3d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fbda20f2-015a-42ff-80df-308ba05f1d3d/Untitled.png)
 
 ### 五、配置开机自启动
 
