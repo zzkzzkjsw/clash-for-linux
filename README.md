@@ -76,14 +76,13 @@ INFO[0000] Start initial compatible provider GlobalTV
 
 打开系统设置，点击网络代理右边的 ⚙ 按钮，选择手动，填写 HTTP 和 HTTPS 代理为 127.0.0.1:7890，填写 Socks 主机为 127.0.0.1:7891，即可启用系统代理，如下图所示。
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fbda20f2-015a-42ff-80df-308ba05f1d3d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fbda20f2-015a-42ff-80df-308ba05f1d3d/Untitled.png)
+![image](https://user-images.githubusercontent.com/43178911/116800863-599dd900-ab37-11eb-8c86-ceed8bee487b.png)
 
 ### 四、测试验证
 
 - 通过curl命令访问www.google.com，响应正常。
 - 部分（我的TnT）服务器会出现curl可通，ping不通的情况，求大神告知~
-![image](https://user-images.githubusercontent.com/43178911/116800820-0592f480-ab37-11eb-8a46-7e0277164c7d.png)
-
+![image](https://user-images.githubusercontent.com/43178911/116800843-2fe4b200-ab37-11eb-96fd-5a6ad01ac29b.png)
 
 ### 五、配置开机自启动
 
