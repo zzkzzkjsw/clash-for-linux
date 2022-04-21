@@ -168,7 +168,7 @@ WantedBy=multi-user.target
 
 ### 八、订阅链接提供商推荐(SPEEDER)
 
-[Speeder](https://www.speederss.best/auth/register?code=111)
+[Speeder](https://www.speeder.one/auth/register?code=ghostxu)
 
 推荐理由
 
