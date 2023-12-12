@@ -181,7 +181,8 @@ WantedBy=multi-user.target
 - 适用性强：支持Windows，Linux，Mac，IOS，Android
 - 使用便捷：使用教程详细，并且提供一键导入配置功能，操作便捷
 
-### 最后，希望这篇文档能帮助到您，欢迎传递温暖~
+### 九、捐赠
+- 如果觉得还不错，请作者喝杯咖啡鼓励一下吧~
 <div>
   <tr>
     <td><img src="https://github.com/ghostxu97/clash-for-linux/assets/43178911/4914c6f8-ff73-495e-99fc-f4766ccf8959"  height="auto" width="495"></td>
