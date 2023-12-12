@@ -13,6 +13,9 @@ Linux环境安装配置Clash工具，以实现代理上网效果。包含下载�
 
 ![image](https://user-images.githubusercontent.com/43178911/116800809-ee540700-ab36-11eb-940f-25eed6be8a6c.png)
 
+- 如github链接失效请尝试使用speeder提供的clash安装包
+- https://www.speeder.one/client-download/Clash.for.Windows-x64-linux.tar.gz
+
 ### 二、配置并运行clash
 
 - 命令执行过程（仅供参考,请按本地设置稍作调整）
@@ -177,3 +180,11 @@ WantedBy=multi-user.target
 - 多设备：最多可支持10台设备同时在线使用
 - 适用性强：支持Windows，Linux，Mac，IOS，Android
 - 使用便捷：使用教程详细，并且提供一键导入配置功能，操作便捷
+
+### 最后，希望这篇文档能帮助到您，欢迎传递温暖~
+<div>
+  <tr>
+    <td><img src="https://github.com/ghostxu97/clash-for-linux/assets/43178911/4914c6f8-ff73-495e-99fc-f4766ccf8959"  height="auto" width="495"></td>
+    <td><img src="https://github.com/ghostxu97/clash-for-linux/assets/43178911/201ae7e3-6319-420a-88f3-d599dd3fa6f7"  height="auto" width="495"></td>
+  </tr>
+</div>
