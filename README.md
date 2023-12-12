@@ -185,7 +185,7 @@ WantedBy=multi-user.target
 - 如果觉得还不错，请作者喝杯咖啡鼓励一下吧~
 <div>
   <tr>
-    <td><img src="https://github.com/ghostxu97/clash-for-linux/assets/43178911/4914c6f8-ff73-495e-99fc-f4766ccf8959"  height="auto" width="495"></td>
-    <td><img src="https://github.com/ghostxu97/clash-for-linux/assets/43178911/201ae7e3-6319-420a-88f3-d599dd3fa6f7"  height="auto" width="495"></td>
+    <td><img src="https://github.com/ghostxu97/clash-for-linux/assets/43178911/4914c6f8-ff73-495e-99fc-f4766ccf8959"  height="auto" width="300"></td>
+    <td><img src="https://github.com/ghostxu97/clash-for-linux/assets/43178911/201ae7e3-6319-420a-88f3-d599dd3fa6f7"  height="auto" width="300"></td>
   </tr>
 </div>
