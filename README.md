@@ -13,9 +13,6 @@ Linux环境安装配置Clash工具，以实现代理上网效果。包含下载�
 
 ![image](https://user-images.githubusercontent.com/43178911/116800809-ee540700-ab36-11eb-940f-25eed6be8a6c.png)
 
-- 如github链接失效请尝试使用speeder提供的clash安装包
-- https://www.speeder.one/client-download/Clash.for.Windows-x64-linux.tar.gz
-
 ### 二、配置并运行clash
 
 - 命令执行过程（仅供参考,请按本地设置稍作调整）
