@@ -6,8 +6,8 @@ Linux环境安装配置Clash工具，以实现代理上网效果。包含下载�
 
 ---
 
-### 一、下载[clash for linux](https://dl.gtk.pw/proxy/linux/Clash.for.Windows-0.18.5-x64-linux.tar.gz)
-- 原地址已失效，请使用[镜像地址](https://dl.gtk.pw/proxy/linux/Clash.for.Windows-0.18.5-x64-linux.tar.gz)下载
+### 一、下载[clash for linux](https://drive.rocklinuxmirror.eu.org/index.php/s/5MndEnkeqzpiiS2/download?path=%2F&files=clash-linux-amd64-v1.18.0.gz)
+- 原地址已失效，请使用[镜像地址](https://drive.rocklinuxmirror.eu.org/index.php/s/5MndEnkeqzpiiS2/download?path=%2F&files=clash-linux-amd64-v1.18.0.gz)下载
 - ~~[https://github.com/Dreamacro/clash/releases](https://github.com/Dreamacro/clash/releases)~~
 - 下载时需注意服务器位数是64还是32位，本文档中使用的64位
 ![image](https://user-images.githubusercontent.com/43178911/116800809-ee540700-ab36-11eb-940f-25eed6be8a6c.png)
@@ -19,8 +19,8 @@ Linux环境安装配置Clash工具，以实现代理上网效果。包含下载�
 ```bash
 [root@localhost ~]# su
 [root@localhost ~]# mkdir /opt/clash
-[root@localhost ~]# gunzip clash-linux-amd64-v0.18.0.gz
-[root@localhost ~]# mv Desktop/clash-linux-amd64-v1.4.2 /opt/clash/clash
+[root@localhost ~]# gunzip clash-linux-amd64-v1.18.0.gz
+[root@localhost ~]# mv Desktop/clash-linux-amd64-v1.18.0 /opt/clash/clash
 [root@localhost ~]# cd /opt/clash/
 [root@localhost clash]# wget -O config.yaml [订阅链接]
 --2021-05-01 22:39:37--  [订阅链接]
