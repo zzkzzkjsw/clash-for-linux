@@ -63,20 +63,14 @@ INFO[0000] Start initial compatible provider GlobalTV
 
 - 命令行形式开启
 
-```bash
-[root@localhost ~]# gsettings set org.gnome.system.proxy mode 'manual'
-[root@localhost ~]# gsettings set org.gnome.system.proxy.http port 7890
-[root@localhost ~]# gsettings set org.gnome.system.proxy.http host '127.0.0.1'
-[root@localhost ~]# gsettings set org.gnome.system.proxy.socks port 7891
-[root@localhost ~]# gsettings set org.gnome.system.proxy.socks host '127.0.0.1'
-[root@localhost ~]# gsettings set org.gnome.system.proxy ignore-hosts "['localhost', '127.0.0.0/8', '::1']"
 ```
+vi ~/.bashrc
+export export https_proxy=127.0.0.1:7890
+export http_proxy=127.0.0.1:7890
+export all_proxy=127.0.0.1:7890
 
-- 图形化界面形式开启（装有GUI使用）
-
-打开系统设置，点击网络代理右边的 ⚙ 按钮，选择手动，填写 HTTP 和 HTTPS 代理为 127.0.0.1:7890，填写 Socks 主机为 127.0.0.1:7891，即可启用系统代理，如下图所示。
-
-![image](https://user-images.githubusercontent.com/43178911/116800863-599dd900-ab37-11eb-8c86-ceed8bee487b.png)
+source ~/.bashrc
+```
 
 ### 四、测试验证
 
