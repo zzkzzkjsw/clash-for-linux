@@ -17,40 +17,15 @@ Linux环境安装配置Clash工具，以实现代理上网效果。包含下载�
 - 命令执行过程（仅供参考,请按本地设置稍作调整）
 
 ```bash
-[root@localhost ~]# su
-[root@localhost ~]# mkdir /opt/clash
-[root@localhost ~]# gunzip clash-linux-amd64-v1.18.0.gz
-[root@localhost ~]# mv Desktop/clash-linux-amd64-v1.18.0 /opt/clash/clash
-[root@localhost ~]# cd /opt/clash/
-[root@localhost clash]# wget -O config.yaml [订阅链接]
---2021-05-01 22:39:37--  [订阅链接]
-Resolving www.sub-speeder.com (www.sub-speeder.com)... 104.21.18.176, 172.67.182.209, 2606:4700:3035::ac43:b6d1, ...
-Connecting to www.sub-speeder.com (www.sub-speeder.com)|104.21.18.176|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 44830 (44K) [application/octet-stream]
-Saving to: ‘config.yaml’
+mkdir /opt/clash
+gunzip ./clash-linux-amd64-v1.18.0.gz
+mv ./clash-linux-amd64-v1.18.0 /opt/clash/clash
+mv ./Country.mmdb /opt/clash
 
-100%[======================================>] 44,830       287KB/s   in 0.2s   
+cd /opt/clash
+chmod +x clash
+wget -O config.yaml ******************your link*********************
 
-2021-05-01 22:39:38 (287 KB/s) - ‘config.yaml’ saved [44830/44830]
-
-[root@localhost clash]# wget -O Country.mmdb https://www.sub-speeder.com/client-download/Country.mmdb
---2021-05-01 22:39:55--  https://www.sub-speeder.com/client-download/Country.mmdb
-Resolving www.sub-speeder.com (www.sub-speeder.com)... 172.67.182.209, 104.21.18.176, 2606:4700:3035::ac43:b6d1, ...
-Connecting to www.sub-speeder.com (www.sub-speeder.com)|172.67.182.209|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 3878104 (3.7M) [application/octet-stream]
-Saving to: ‘Country.mmdb’
-
-100%[======================================>] 3,878,104   2.86MB/s   in 1.3s   
-
-2021-05-01 22:39:58 (2.86 MB/s) - ‘Country.mmdb’ saved [3878104/3878104]
-[root@localhost clash]# chmod +x clash 
-[root@localhost clash]# ll
-total 19832
--r-x--x--x. 1 root root 9326592 May  1 23:24 clash
--rw-r--r--. 1 root root   44830 May  1 22:39 config.yaml
--rw-r--r--. 1 root root 3878104 Oct  9  2020 Country.mmdb
 [root@localhost clash]# ./clash -d .
 INFO[0000] Start initial compatible provider Proxy      
 INFO[0000] Start initial compatible provider Domestic   
@@ -64,6 +39,7 @@ INFO[0000] Start initial compatible provider GlobalTV
 - 命令行形式开启
 
 ```
+
 gsettings set org.gnome.system.proxy mode 'manual'
 gsettings set org.gnome.system.proxy.http port 7890
 gsettings set org.gnome.system.proxy.http host '127.0.0.1'
