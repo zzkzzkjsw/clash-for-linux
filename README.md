@@ -72,7 +72,7 @@ gsettings set org.gnome.system.proxy.socks host '127.0.0.1'
 gsettings set org.gnome.system.proxy ignore-hosts "['localhost', '127.0.0.0/8', '::1']"
 
 vi ~/.bashrc
-export export https_proxy=127.0.0.1:7890
+export https_proxy=127.0.0.1:7890
 export http_proxy=127.0.0.1:7890
 export all_proxy=127.0.0.1:7890
 
